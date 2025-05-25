@@ -2,7 +2,7 @@
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">ActorEvents.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../ActorEvents.lvlib</Property>
-	<Property Name="NI.Lib.Description" Type="Str">多列列表框事件处理程序</Property>
+	<Property Name="NI.Lib.Description" Type="Str">多列列表框事件处理器</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*8!!!*Q(C=\:5^DBMR$%9`*Q%WL7]1O%GR*;`A+`A+P-+U7`I+P))R.X$HGF=QE"-YH9M%Q?S44#`7__=GC[29SJ2H0ELEMS4)5L?PUB&gt;.VWT8L0?`HNPO)N[T6H^M.LY6(Y_XZ`CJT%8GYTC/Z`AUT&gt;LXR@T&lt;:CX?&lt;.&lt;\F_/H^(X_U`T(*`6@Z8O"`X(_=XR]:LOLS[M0_\"`;X&gt;8$_G\H^G:WE7%*R[YY[:7;ELU2%`U2%`U2!`U1!`U1!`U1(&gt;U2X&gt;U2X&gt;U2T&gt;U1T&gt;U1T&gt;U1_].8?B#&amp;TJ)3@'E5*)U3:!-"E6*F`!E0!F0QM/L%J[%*_&amp;*?")?BCDB38A3HI1HY7';%J[%*_&amp;*?")?5H73\!U&gt;HI3(^!JY!J[!*_!*?#CJA#=!#)I&amp;C9-E9#A)"A]"4]!4]0#IA#@A#8A#HI#(M!+?A#@A#8A#(K&lt;U69F/URI[0+32Q_0Q/$Q/D].$;DE]$I`$Y`!Y0*34Q_0Q/""/13=Z#()G/1/=&amp;Y@(Y?&amp;,$I`$Y`!Y0!Y0I&lt;Z$XF?GU&lt;3'$I`"9`!90!;0Q5-+'4Q'D]&amp;D]"A]J*8"9`!90!;0Q5-J'4Q'D]&amp;DA"B&amp;+3]DG4(2''1)"A_@@FKM\V*U%ON.KM/L/J3KQ[9[2+L$I&gt;JUV7;K.EGV_+J&amp;63W7;B&amp;50UY&amp;L9*2&amp;6&amp;.&lt;A.VI.`D7XS$L`%"8_&amp;,@)(0W^3`00"Q/'C`XWO\X7KTW7C^8GM9"KV7+SW83SU7#]XH]Y&gt;LY"PNY5+I?_G(0O-X_(&gt;]_-0T\^0\5.L.^00&gt;`EP`A\N2H`1Y,WNU$ZZM^&lt;M!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>

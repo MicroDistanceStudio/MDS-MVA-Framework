@@ -2,7 +2,7 @@
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">IViewable.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../IViewable.lvlib</Property>
-	<Property Name="NI.Lib.Description" Type="Str">已从子面板中删除消息</Property>
+	<Property Name="NI.Lib.Description" Type="Str">从子面板中删除消息</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*G!!!*Q(C=\&gt;5`&lt;BJ"&amp;-@R(R'&amp;J62)[7W26.O_+^#\WCO]+S#INO1+L[!,$@A'N#F@E3I&gt;6["U:5'_/YS)CUVI9C7&amp;:TVY_=W`DW&gt;(;[G5/WGM][XS]9`F68PT_.AO&amp;MO_\)&lt;;&amp;\K7F[(WJ&gt;&lt;0J;QV/([JJH29.XI;;P_KJFV4WN_WNUUJ\8$\ZJ@P.,D_:L&gt;\_HY[H8[=.U0NA_8G^OK^P*&gt;`7\K&lt;B`4.T_R)`9O)GN3A/N85,X6/]C20]C20]C10]C!0]C!0]C"X=C&gt;X=C&gt;X=C=X=C-X=C-X=C-P&amp;\H)23ZS3-HCS5,*J-E%37=I3DY34_**0)G(LUI]C3@R**\%1R=FHM34?"*0YG'9%E`C34S**`%Q6:&amp;EO=DR*"[G6_!*0)%H]!1?FF4A#1$"9M(%Q31Q&amp;$1'.Y%H]!1?&lt;B6Y!E`A#4S"BW9&amp;HM!4?!*0Y'&amp;)W:5IGPYCR]-U=DS/R`%Y(M@$V()]DM@R/"\(QX*S0)\(14A,/J.$E$0)[?"]=4S/BV^S0)\(]4A?RU.4?5*?&gt;K&lt;8^"=Z(M.D?!S0Y4%]4#($9XA-D_%R0%QLQW.Y$)`B-4QM*=.D?!S0!4%7:8E:ERE$D5Z'9(DY+;@&amp;SF/+)L&amp;S3@8QKBZ+V=/G?IB5$Y@K1V&gt;^G+I0388T64&gt;6&gt;&lt;.5.U(VDV.&amp;KW*5&amp;V%&gt;X(@5E=]$&gt;5`&gt;5F@5/&lt;7FTKB4[K1@_J=\(I^((1Y(\@&gt;\&lt;&lt;&gt;&lt;L69LT?&gt;TN7WLW7SG[83KS72S@1U]=&amp;V@#*@X5M&gt;^J`'FXHU;&gt;?-PI_\TNV(X-,\5_Z&gt;2X_?.`J@_"_^'@&gt;$L?&gt;GDH^A478)!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>

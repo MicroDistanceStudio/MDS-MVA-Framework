@@ -16,3 +16,7 @@ Cache_Path[Path] Line0002 = "_{03675E7D-009F-4A1B-B68D-6551E7D40E8B}.txt"
 [AB_Cache_{FBBD473C-6F89-4B53-BE3C-AD6664814ACA}]
 Cache_Path[Path] Line0001 = "/C/Users/Administrator/AppData/Local/Temp/AB_Cache"
 Cache_Path[Path] Line0002 = "_{FBBD473C-6F89-4B53-BE3C-AD6664814ACA}.txt"
+
+[项目窗口数据(_D)]
+ProjectExplorer.ClassicPosition[String] = "180,70,1051,532"
+

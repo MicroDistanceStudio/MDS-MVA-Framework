@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -392,6 +392,8 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NestedMenu.rtm" Type="Document" URL="../Test/Integration Test/ActorAutoRegistrationView/NestedMenu.rtm"/>
+			<Item Name="MainMenu.rtm" Type="Document" URL="../Test/Integration Test/ConcreteViewModel/MainMenu.rtm"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Integration Test Launcher" Type="EXE">
@@ -399,7 +401,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{109FB422-CFC9-4FD6-9636-74342B42FB80}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{F8892812-1E5C-488D-9A98-7917CB633792}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{03675E7D-009F-4A1B-B68D-6551E7D40E8B}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Integration Test Launcher</Property>
@@ -451,7 +452,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Packed Library</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3335FD4E-E681-42F5-8204-8D89A0C7F581}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CA18499C-B680-4661-A6E7-C7CF95FB25CC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MVA Framework.lvlib</Property>

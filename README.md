@@ -41,6 +41,6 @@ Git 子模块依赖项：
 * 请使用链接的问题跟踪器报告问题、错误和建议。
 * 如果您想投稿，请联系作者。
 
-### 我应该和谁交谈? ###
+### 我应该和谁交流? ###
 * Ethan Stern | Composed Systems, LLC
 * ethan.stern@composed.io

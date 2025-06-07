@@ -1,46 +1,76 @@
 ![MVAFramework](https://bitbucket.org/composedsystems/mva-framework/raw/65a57cd09ac7f296d4c8287b8fb4579cf4f080f1/MVAFramework.png)
+# 🔧 什么是 MVA Framework？
 
-# 什么是 MVA Framework? #
+**MVA Framework** 是一个基于 LabVIEW 的架构框架，其设计目标是实现“关注点分离”（Separation of Concerns）。它基于 **Model-View-ViewModel（MVVM）** 架构理念，并扩展了 NI 官方的 Actor Framework（AF），为 LabVIEW 应用程序提供了更高层次的模块化组织方式。
 
-MVA Framework 是一个关注点分离框架 (Model-View-ViewModel) ，它扩展了 NI 的 Actor Framework 与 LabVIEW 的结合。该框架没有特定于领域或应用程序的内容；这只是一种将业务逻辑与表示逻辑（模型与视图）分离的方法。
+该框架本身不包含任何特定领域或应用逻辑，仅提供一种将业务逻辑（Model）与表现层（View）解耦的通用机制。
 
-有关 MVVM 的快速描述，请参阅 https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/
+📖 关于 MVVM 架构模式的详细说明，可参考：  
+https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/
 
-### 重要特点: ###
-* 具有隐式类型安全性的中介数据总线 (订阅者按类型请求数据)
-* 提供嵌套、启动和事件处理语义的 Viewable 类
-* 用于发布和订阅传输数据的 API，模型和视图之间的耦合度较低
-* 传输抽象支持许多订阅类型和非 AF 参与者（即不是基于 LabVIEW Actor 框架构建的参与者）
-* 基于策略的订阅和发布，用于抽象发布者和订阅服务器的行为
-* 用于独占发布的发布锁定
-* 当所有其他希望都丢失时，通过 “ENABLE_FRAMEWORK_LOG” 条件标志进行详细的框架事件日志记录。
+---
 
-### 我该如何设置? ###
+## 🌟 主要特性
 
-#### 框架
-* 将框架及其依赖项作为Git子模块安装。从cmd行：git 子模块 init--checkout
+- ✅ **中介数据总线**：基于隐式类型安全机制，订阅者根据数据类型接收对应数据，避免硬编码消息结构。
+- ✅ **Viewable 类支持**：提供嵌套结构、生命周期启动和事件处理等 UI 行为封装能力。
+- ✅ **发布-订阅 API**：模型与视图之间通过统一接口进行通信，最大限度降低耦合。
+- ✅ **传输抽象**：允许非 Actor Framework 实现的模块参与数据交互（如纯 VI 或其他进程）。
+- ✅ **策略驱动的发布订阅机制**：支持行为配置化，便于构建灵活的数据流模型。
+- ✅ **发布锁机制**：支持对特定数据源的独占发布控制。
+- ✅ **日志调试支持**：通过启用 `ENABLE_FRAMEWORK_LOG` 条件编译标志，输出详细的框架运行日志，有助于故障排查。
 
-#### 例子
-* 在撰写本文时 （2023-01-30），bitbucket mva-carwash 示例已过时，因为它依赖于 2.0（或更早版本）。如果您认为它会有所帮助，请告诉我们修复它。
-* https://bitbucket.org/composedsystems/mva-framework-examples/ 中提供了一些更简单的入门示例
+---
 
-#### 依赖
-我们最近遇到了 LabVIEW 链接器与安装多级包依赖项时发生的相对路径更改相关的问题。我们（和其他人）正在努力解决这个问题。同时，您可以尝试批量编译或手动解析依赖项。如果您遇到困难，请寻求帮助，我们将尽力提供帮助。
+## 🏗 框架来源
 
-Git 子模块依赖项：
-* mva-core（用于冥想和观察的核心框架组件）
-* mva-viewable（使用 views 和 view-model 扩展 core）
-* composed-af-messages（用于实现框架消息）
-* composed-event-logger（用于框架调试事件日志记录）
-* listbox-extensions（由 Mediator 总线监视器 UI 使用）
-* composed-lookup-table（在多个位置使用）
-* composed-transport（中介中使用的数据传输抽象）
-* variant-extensions（在中介中用于格式化唯一且人类可读的数据类型）
+- 开发公司：[Composed Systems, LLC](https://www.composed.io/)
+- 官方仓库：https://bitbucket.org/composedsystems/mva-framework/src/master/
+- 中文镜像（Gitee 同步）：https://gitee.com/MicroDistanceStudio/mva-framework
 
-### 贡献准则 ###
-* 请使用链接的问题跟踪器报告问题、错误和建议。
-* 如果您想投稿，请联系作者。
+---
 
-### 我应该和谁交流? ###
-* Ethan Stern | Composed Systems, LLC
-* ethan.stern@composed.io
+## 🎓 示例项目
+
+- 官方示例项目仓库：https://bitbucket.org/composedsystems/mva-framework-examples/
+- 基于 3.0.0 工具包示例项目仓库：https://gitee.com/MicroDistanceStudio/mds-mva-framework-examples
+---
+
+## 🔗 框架依赖
+
+MVA Framework 是一个组件化系统，原始仓库中包含以下子模块（已在本汉化版本中集成）：
+
+| 模块名 | 描述 |
+|--------|------|
+| [`mva-core`](https://bitbucket.org/composedsystems/mva-core/src/master/) | 框架核心组件，包含数据总线与通信机制 |
+| [`mva-viewable`](https://bitbucket.org/composedsystems/mva-viewable/src/master/) | 基于 ViewModel 的 UI 抽象支持 |
+| [`composed-af-messages`](https://bitbucket.org/composedsystems/composed-af-messages/src/master/) | Actor Framework 消息实现 |
+| [`composed-event-logger`](https://bitbucket.org/composedsystems/composed-event-logger/src/master/) | 框架调试日志工具 |
+| [`listbox-extensions`](https://bitbucket.org/composedsystems/listbox-extensions/src/master/) | UI 控件扩展，Mediator 监视器使用 |
+| [`composed-lookup-table`](https://bitbucket.org/composedsystems/composed-lookup-table/src/master/) | 通用查找表工具 |
+| [`composed-transport`](https://bitbucket.org/composedsystems/composed-transport/src/master/) | 数据传输抽象层 |
+| [`variant-extensions`](https://bitbucket.org/composedsystems/variant-extensions/src/master/) | 用于中介器中格式化和识别可读数据类型 |
+
+---
+
+## 📦 工具包说明
+
+由于官方未发布 MVA Framework 3.0.0 的工具包版本，我从其 Bitbucket 仓库克隆了最新代码，并进行汉化、打包处理，以方便国内用户快速集成与使用。
+
+---
+
+## 📬 联系与反馈
+
+如果你在使用过程中发现问题，或者希望我们补全或更新示例项目，请在 Gitee 提交 Issue 或留言反馈。
+
+---
+
+## 📝 许可证
+
+原始框架由 Composed Systems 发布，遵循其开源许可协议。请参考各模块仓库中的 LICENSE 文件。
+
+---
+
+## 🙏 鸣谢
+
+特别感谢 **Composed Systems 团队** 在 LabVIEW 架构设计上的创新贡献，也感谢原作者无私开放源码，使得该框架得以持续发展与社区推广。

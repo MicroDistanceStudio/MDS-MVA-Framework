@@ -26,8 +26,8 @@ https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/
 
 - 开发公司：[Composed Systems, LLC](https://www.composed.io/)
 - 官方仓库：https://bitbucket.org/composedsystems/mva-framework/src/master/
-- 中文镜像（Gitee 同步）：https://gitee.com/MicroDistanceStudio/mva-framework
-
+- 中文镜像（Gitee  同步）：https://gitee.com/MicroDistanceStudio/mva-framework
+- 中文镜像（Github 同步）：https://github.com/MicroDistanceStudio/MVA-Framework
 ---
 
 ## 🎓 示例项目

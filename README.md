@@ -33,7 +33,8 @@ https://blogs.msdn.microsoft.com/dphill/2009/01/31/the-viewmodel-pattern/
 ## 🎓 示例项目
 
 - 官方示例项目仓库：https://bitbucket.org/composedsystems/mva-framework-examples/
-- 基于 3.0.0 工具包示例项目仓库：https://gitee.com/MicroDistanceStudio/mds-mva-framework-examples
+- 基于 3.0.0 工具包示例项目仓库（Gitee）：https://gitee.com/MicroDistanceStudio/mds-mva-framework-examples
+- 基于 3.0.0 工具包示例项目仓库（Github）：https://github.com/MicroDistanceStudio/MDS-MVA-Framework-Examples
 ---
 
 ## 🔗 框架依赖
